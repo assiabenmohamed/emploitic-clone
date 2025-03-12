@@ -54,7 +54,7 @@ export default async function Page({
         return job;
       }
     })
-    .filter((job) => job !== undefined);
+    .filter((job: Job) => job !== undefined);
 
   return (
     <>
